@@ -1,0 +1,49 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/honest/index",
+			"style": {
+				"navigationBarTitleText": "真心话"
+			}
+		},
+		{
+			"path": "pages/adventure/index",
+			"style": {
+				"navigationBarTitleText": "大冒险"
+			}
+		},
+		{
+			"path": "pages/setting/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#f4f4f4",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#f90022",
+	    "borderStyle": "black",
+	    "backgroundColor": "#f4f4f4",
+	    "list": [{
+			"pagePath": "pages/honest/index",
+			"iconPath": "static/image/honest.png",
+			"selectedIconPath": "static/image/activeHonest.png",
+			"text": "真心话"
+		}, {
+			"pagePath": "pages/adventure/index",
+			"iconPath": "static/image/adventure.png",
+			"selectedIconPath": "static/image/activeAdventure.png",
+			"text": "大冒险"
+		},{
+			"pagePath": "pages/setting/index",
+			"iconPath": "static/image/setting.png",
+			"selectedIconPath": "static/image/activeSetting.png",
+			"text": "设置"
+		}]
+	}
+}
